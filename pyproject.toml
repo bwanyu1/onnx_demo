@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onnx_ocr"
+version = "0.1.0"
+description = "ocr test"
+readme = "README.md"
+requires-python = ">=3.10"
+
+
+dependencies = [
+"onnxocr>=2025.5",
+"opencv-python<4.12.0"
+]
